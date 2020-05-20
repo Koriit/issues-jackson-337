@@ -17,4 +17,5 @@ fun main() {
     val obj: Case = jackson.readValue(json)
 
     assert(obj.isField) { "Should be true" }
+    println("OK!")
 }
